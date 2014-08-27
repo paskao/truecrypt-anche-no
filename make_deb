@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# locale
+msgfmt locale/it_IT/LC_MESSAGES/truecrypt-anche-no.po -o locale/it_IT/LC_MESSAGES/truecrypt-anche-no.mo
+
+# build
+equivs-build -a i386 deb

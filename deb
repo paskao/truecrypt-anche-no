@@ -1,0 +1,20 @@
+# Source: <source package name; defaults to package name>
+Section: misc
+Priority: optional
+Homepage: http://www.freepto.mx/
+
+Package: truecrypt-anche-no
+Version: 7.1a
+Maintainer: vinc3nt <vinc3nt@riseup.net>
+Depends: zenity, libc6
+Files: truecrypt /usr/bin/
+  truecrypt.desktop /usr/share/applications/
+  truecrypt.xpm /usr/share/pixmaps/
+  License.txt /usr/share/truecrypt/doc/
+  TrueCrypt_User_Guide.pdf /usr/share/truecrypt/doc/
+  truecrypt-anche-no /usr/bin
+  locale/it_IT/LC_MESSAGES/truecrypt-anche-no.mo /usr/share/
+
+Description: This is a Freepto package that include the truecrypt binary v7.1a and a wrapper
+ that alert users about truecrypt deprecation.
+ In the next release we will remove this package from Freepto

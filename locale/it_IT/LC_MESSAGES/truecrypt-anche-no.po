@@ -1,0 +1,22 @@
+# truecrypt-anche-no localization file
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: truecrypt-anche-no\n"
+"Report-Msgid-Bugs-To: vinc3nt@riseup.net\n"
+"POT-Creation-Date: 2014-01-21 17:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: vinc3nt <vinc3nt@riseup.net>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: truecrypt-anche-no:9
+msgid "WARNING: Using TrueCrypt is not secure as it may contain unfixed security issues"
+msgstr "ATTENZIONE: Usare TrueCrypt non è più sicuro. Questa versione può contenere bug di sicurezza"
+
+#: truecrypt-anche-no:10
+msgid "TrueCrypt will soon be removed from Freepto, it is still present only for retrocompatibility. If your goal is share encrypted files with proprietary operating systems, this is probably a bad idea."
+msgstr "TrueCrypt è presente solo per retrocompatibilità e verra rimosso a breve da Freepto. Se il tuo obiettivo è condividere file cifrate con sistemi operativi propietari, questa probabilmente è una cattiva idea."

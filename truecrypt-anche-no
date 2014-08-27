@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Deprecation wrapper for truecrypt
+
+. gettext.sh
+TEXTDOMAIN=truecrypt-anche-no
+export TEXTDOMAIN
+
+zenity --warning --title="`gettext \"WARNING: Using TrueCrypt is not secure as it may contain unfixed security issues\"`" \
+       --text="`gettext \"TrueCrypt will soon be removed from Freepto, it is still present only for retrocompatibility. If your goal is share encrypted files with proprietary operating systems, this is probably a bad idea.\"`"
+
+exec /usr/bin/truecrypt
